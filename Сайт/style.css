@@ -1,0 +1,424 @@
+html {
+    background-color: #191919;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("DMSans-VariableFont_opsz,wght.ttf");
+} 
+
+body {
+
+    font-family: "DM Sans";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    max-width: 1300px;
+    max-height: 300px;
+    color: white;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    height: 103px;
+    margin-top: 16px;
+}
+
+.menu > a {
+    margin-top: 19px;
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.menu > a:hover {
+    transition: 1s;
+    cursor: pointer;
+    text-decoration: none;
+    color: #118DA8;
+}
+
+.block1 {
+    display: flex;
+    height: 913px;
+}
+
+.photo1 {
+    display: flex;
+    max-width: 650px;
+    max-height: 873px;
+    margin-left: 60px;
+}
+
+.image > .photo2 { 
+    display: flex;
+    margin-top: -899px;
+    margin-left: 32px;
+}
+
+.block2 {
+    margin-top: 220px;
+    margin-left: 60px;
+    max-width: 530px;
+    max-height: 610px;
+    color: white;
+    font-size: 70px;
+}
+
+.level {
+    margin-left: 27px;
+    font-size: 80px;
+}
+
+.line {
+    width: 146px;
+    height: 11px;
+}
+
+.kartina > .line {
+    display: flex;
+    margin-top: -17%;
+}
+
+.menu1 {
+    margin-top: 15%;
+}
+
+.listen {
+    color: white;
+    height: 0px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.image2 {
+    display: flex;
+    margin: -15px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.image2 > a {
+    margin-left: 15px;
+}
+
+.latest {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 3%;
+}
+
+
+.latest > .ep{
+    color: white;
+    font-size: 64px;
+    margin-left: 65px;
+    margin: 0%;
+}
+
+.latest > button {
+    margin-top: 18px;
+    width: 178px;
+    height: 51px;
+    border-radius: 10px;
+    background-color: #118DA8;
+    color: white;
+    border: none;
+}
+
+.lame {
+    display: flex;
+    margin-bottom: 70px;
+    max-width: 1300px;
+    max-height: 545px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.audioms {
+    margin: 40px;
+    margin-top: 37px;
+    width: 400px;
+    height: 470px; 
+}
+
+.block3 {
+    min-width: 1350px;
+    height: 2088px;
+}
+
+.block4 {
+    margin-left: 20px;
+    max-width: 778px;
+    max-height: 432px;
+    margin-top: 20px;
+}
+
+.block4 > .gear {
+    display: flex;
+    justify-content: center;
+    max-width: 73px;
+    max-height: 27px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    background-color: #191919;
+    border-radius: 5px;
+}
+
+
+.block4 > .episode3 {
+    width: 82px;
+    height: 27px;
+    font-size: 17px;
+    color: #118DA8;
+}
+
+.block4 > .should {
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 65px;
+    width: 701px;
+    height: 141px;
+    font-size: 64px;
+}
+
+.block4 > #should {
+    margin-bottom: 40px;
+}
+
+.block4 > .is {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.block4 > .details {
+    width: 208px;
+    height: 51px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #118DA8;
+    color: white;
+    border: none;
+}
+
+.block4 > #tips {
+    display: flex;
+    justify-content: center;
+    max-width: 136px;
+    max-height: 27px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    background-color: #191919;
+    border-radius: 5px;
+}
+
+.abouts {
+    height: 1530.44px;
+    margin-top: 60px;
+}
+
+.contain {
+    height: 943px;
+}
+
+.baz {
+    max-width: 1400px;
+    height: 743.44px;
+}
+
+.baz > .man2 {
+    display: flex;
+    justify-self: end;
+    max-width: 650px;
+    max-height: 743px;
+    margin-right: 4%;
+}
+
+.block5 {
+    margin-top: -40%;
+    margin-left: 70px;
+    width: 590px; 
+    height: 449px;
+    max-width: 590px;
+    max-height: 449px;
+}
+
+.mee {
+    color: #118DA8;
+}
+
+.jacob {
+    display: flex;
+    color: white;
+    font-size: 65px;
+    margin-top: -3%;
+}
+
+.has {
+    font-size: 22px;
+    margin-top: -6%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.here {
+    font-size: 22px;
+    margin-top: 6%;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.block6 {
+    display: flex;
+    margin-left: 50px;
+    color: white;
+    background-color: black;
+    max-width: 1300px;
+    height: 387px;
+    min-height: 387px;
+    border-radius: 20px;
+}
+
+.sub {
+    margin-top: 3%;
+    margin-left: 55px;
+}
+
+.sub > #subsc {
+    margin: 1%;
+    margin-top: -4%;
+    width: 400px;
+    height: 159px;
+    font-size: 72px;
+}
+
+.sub > #blue {
+    width: 139px;
+    height: 27px;
+    margin-left: 10px;
+    color: #118DA8;
+    margin: 1%;
+}
+
+.sub > img {
+    width: 147px;
+    height: 91px;
+    margin-top: 26%;
+    margin-left: -24%;
+}
+
+.form {
+    max-width: 522px;
+    max-height: 252px;
+    margin-left: 20%;
+}
+
+.form > input {
+    width: 522px;
+    height: 80px;
+    margin-top: 46px;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    background-color: #191919;
+    border: none;
+}
+
+#nam + #emal {
+    margin-top: 20px;
+}
+
+.form > ::placeholder {
+    font-size: 24px;
+    padding-left: 3%;
+}
+
+.form > .submit {
+    background-color: #118DA8;
+    margin-top: 4%;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    width: 80px;
+    height: 48px;
+}
+
+.reviewsbl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 37%;
+    margin-left: 55px;
+    width: 1300px;
+    height: 901px;
+    color: white;
+}
+
+.reviews  {
+    margin-top: 50%;
+    background-color: black;
+    width: 423px;
+    height: 321px;
+    border-radius: 15px;
+}
+
+.gridi {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.gridi > .tx {
+    margin-top: 1%;
+    width: 317px;
+    font-size: 36px;
+}
+
+.gridi > .tx2 {
+    max-height: 29px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.block8 {
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr 1fr;
+    width: 1100px;
+    height: 438px;
+    margin-top: 10%;
+    margin-left: 70px;
+    color: white;
+}
+
+.block8 > .logo {
+    margin-top: -5%;
+}
+
+.fok > a {
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.fol > a {
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.image7 > a {
+    margin-left: 8px;
+    
+}
